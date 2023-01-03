@@ -70,18 +70,25 @@ void showTemp(){
     LCD_PutString("\r\n", 4);
 }
 
-void showDate(){
-    
-    //LCD_ClearScreen();
-   
-    printf("%d/%d   %d:%d",
-    currentTime.tm_mday ,
-    currentTime.tm_mon,
-    currentTime.tm_hour ,
-    currentTime.tm_min);
-    LCD_PutString("\r\n", 4);
-     
+void 
+0
+(DATEL & 0x3000) >> 12,
+                                                        (DATEL & 0x0F00) >> 8,
+                                                        (DATEH & 0x000F),
+                                                        (TIMEH & 0x3000) >> 12,
+                                                        (TIMEH & 0x0F00) >> 8,
+                                                        (TIMEH & 0x0070) >> 4,
+                                                        (TIMEH & 0x000F),
+                                                        (TIMEH & 0x7000) >> 12,
+                                                        (TIMEL & 0x0F00) >> 8);
+            for(i=0; i>=10; i++){Nop();}
+            PORTDbits.RD12 = 0;
+            
+            SPI1_Exchange8bit((uint8_t) 0b00000110);
+            Port
+    }
 }
+
 
 
 int main(void)
