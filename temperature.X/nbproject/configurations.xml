@@ -90,7 +90,6 @@
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
-        <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
         <makeCustomizationPostStep></makeCustomizationPostStep>
@@ -231,9 +230,6 @@
       <PKOBSKDEPlatformTool>
         <property key="firmware.download.all" value="false"/>
       </PKOBSKDEPlatformTool>
-      <Tool>
-        <property key="firmware.download.all" value="false"/>
-      </Tool>
     </conf>
   </confs>
 </configurationDescriptor>

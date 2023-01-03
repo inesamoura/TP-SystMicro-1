@@ -5,11 +5,11 @@ Tool Name:
 
 Command:
   -p24FJ1024GB610 \
-  --mdfp=C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC24F-GA-GB_DFP/1.5.181/xc16 \
+  --mdfp=C:/Users/ia425219/.mchp_packs/Microchip/PIC24F-GA-GB_DFP/1.5.181/xc16 \
   -o \
   dist/default/production/temperature.X.production.elf \
   -Lc:/program files/microchip/xc16/v1.60/bin/bin/.. \
-  -LC:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC24F-GA-GB_DFP/1.5.181/xc16/bin/../support/PIC24F/gld \
+  -LC:/Users/ia425219/.mchp_packs/Microchip/PIC24F-GA-GB_DFP/1.5.181/xc16/bin/../support/PIC24F/gld \
   -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../lib \
   -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/PIC24E/gld \
   -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/PIC24F/gld \
@@ -918,19 +918,19 @@ __FDEVOPT1
  *(.comment)
  .comment         0x000000         0x5e c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\liblega-c-elf.a(xfiles.DA_eo)
 
-.debug_info       0x000000       0x5215
+.debug_info       0x000000       0x5307
  *(.debug_info)
- .debug_info      0x000000        0x35d build/default/production/mcc_generated_files/clock.o
- .debug_info      0x00035d        0xc00 build/default/production/mcc_generated_files/system.o
- .debug_info      0x000f5d        0x418 build/default/production/mcc_generated_files/traps.o
- .debug_info      0x001375        0xf6a build/default/production/mcc_generated_files/adc1.o
- .debug_info      0x0022df        0x509 build/default/production/mcc_generated_files/interrupt_manager.o
- .debug_info      0x0027e8        0x71c build/default/production/mcc_generated_files/tmr3.o
- .debug_info      0x002f04        0x696 build/default/production/mcc_generated_files/pin_manager.o
- .debug_info      0x00359a        0xbc5 build/default/production/mcc_generated_files/rtcc.o
- .debug_info      0x00415f        0x305 build/default/production/main.o
- .debug_info      0x004464        0xc4d build/default/production/lcd.o
- .debug_info      0x0050b1        0x164 build/default/production/lcd_printf.o
+ .debug_info      0x000000        0x373 build/default/production/mcc_generated_files/clock.o
+ .debug_info      0x000373        0xc16 build/default/production/mcc_generated_files/system.o
+ .debug_info      0x000f89        0x42e build/default/production/mcc_generated_files/traps.o
+ .debug_info      0x0013b7        0xf80 build/default/production/mcc_generated_files/adc1.o
+ .debug_info      0x002337        0x51f build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_info      0x002856        0x732 build/default/production/mcc_generated_files/tmr3.o
+ .debug_info      0x002f88        0x6ac build/default/production/mcc_generated_files/pin_manager.o
+ .debug_info      0x003634        0xbdb build/default/production/mcc_generated_files/rtcc.o
+ .debug_info      0x00420f        0x31b build/default/production/main.o
+ .debug_info      0x00452a        0xc63 build/default/production/lcd.o
+ .debug_info      0x00518d        0x17a build/default/production/lcd_printf.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0xad0
@@ -948,20 +948,20 @@ __FDEVOPT1
  .debug_abbrev    0x00090b        0x177 build/default/production/lcd.o
  .debug_abbrev    0x000a82         0x4e build/default/production/lcd_printf.o
 
-.debug_line       0x000000        0xd48
+.debug_line       0x000000        0xcb8
  *(.debug_line)
- .debug_line      0x000000        0x12c build/default/production/mcc_generated_files/clock.o
- .debug_line      0x00012c        0x123 build/default/production/mcc_generated_files/system.o
- .debug_line      0x00024f         0x1a build/default/production/mcc_generated_files/mcc.o
- .debug_line      0x000269        0x151 build/default/production/mcc_generated_files/traps.o
- .debug_line      0x0003ba        0x153 build/default/production/mcc_generated_files/adc1.o
- .debug_line      0x00050d        0x128 build/default/production/mcc_generated_files/interrupt_manager.o
- .debug_line      0x000635        0x145 build/default/production/mcc_generated_files/tmr3.o
- .debug_line      0x00077a        0x149 build/default/production/mcc_generated_files/pin_manager.o
- .debug_line      0x0008c3        0x1d5 build/default/production/mcc_generated_files/rtcc.o
- .debug_line      0x000a98         0xc3 build/default/production/main.o
- .debug_line      0x000b5b        0x1b1 build/default/production/lcd.o
- .debug_line      0x000d0c         0x3c build/default/production/lcd_printf.o
+ .debug_line      0x000000        0x11c build/default/production/mcc_generated_files/clock.o
+ .debug_line      0x00011c        0x113 build/default/production/mcc_generated_files/system.o
+ .debug_line      0x00022f         0x1a build/default/production/mcc_generated_files/mcc.o
+ .debug_line      0x000249        0x141 build/default/production/mcc_generated_files/traps.o
+ .debug_line      0x00038a        0x143 build/default/production/mcc_generated_files/adc1.o
+ .debug_line      0x0004cd        0x118 build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_line      0x0005e5        0x135 build/default/production/mcc_generated_files/tmr3.o
+ .debug_line      0x00071a        0x139 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_line      0x000853        0x1c5 build/default/production/mcc_generated_files/rtcc.o
+ .debug_line      0x000a18         0xc3 build/default/production/main.o
+ .debug_line      0x000adb        0x1a1 build/default/production/lcd.o
+ .debug_line      0x000c7c         0x3c build/default/production/lcd_printf.o
 
 .debug_frame      0x000000        0x80c
  *(.debug_frame)

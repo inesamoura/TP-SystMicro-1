@@ -1,3 +1,3 @@
-build/default/production/lcd.o: lcd.c lcd.h
-
-lcd.h:
+build/default/production/lcd.o:  \
+lcd.c  \
+lcd.h 
